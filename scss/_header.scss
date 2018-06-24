@@ -1,0 +1,49 @@
+@import "var";
+@import "grid";
+ /*header*/ 
+.header{
+  padding:30px 42px 30px 42px;
+  h2{
+    float:left;
+    font-size: 25px;
+  }
+  .nav{
+    float:right;
+    .nav-item{
+      a{
+        color:$darkgray;
+        font-size: 16px;
+        i{
+          color:$black;
+        }
+      }
+    }
+  }
+  .headercard{
+    margin-left: 1px;
+    .headcard{
+      margin-right: 31px;
+      padding-bottom: 25px;
+      width: 30%;
+      background: $white;
+      h3{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+      }
+      h4{
+        font-size: 30px;
+        text-align: center;
+      }
+      .revenue{
+        color: $green;
+      }
+      .cost{
+        color: $red;
+      }
+      .income{
+        color: $blue;
+      }
+    }
+  }
+}

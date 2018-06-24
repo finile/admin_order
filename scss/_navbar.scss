@@ -1,0 +1,41 @@
+@import "var";
+@import "grid";
+ /*navbar*/ 
+.navbart{
+  background: $black;
+  .logo{
+    float:left;
+    margin: 21px 30px 21px 42px;
+    font-size: 25px;
+    a{
+      color:$white;  
+    }
+  }
+  .menu{
+    li{
+      float:left;
+      margin-top: 22px;
+      margin-left: 30px;
+      padding: 0px 10px 20px 10px;
+      border: 1px solid black;
+      a{
+        font-size: 18px;
+        color:$gray; 
+        text-decoration: none;
+      }
+    }
+    .active{
+      border-bottom: 2px solid $white;
+      a{
+        color:$white;
+      }
+    }
+    .admin{
+      float:right;
+      margin-right: 42px;
+      a{
+        color:$white;
+      }
+    }
+  }
+}

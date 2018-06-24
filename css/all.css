@@ -1,0 +1,188 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* CSS Reset end */
+/* whole body control*/
+body {
+  font-family: 'Roboto', Arial, Microsoft JhengHei, sans-serif; }
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #f2f2f2; }
+
+.clearfix {
+  clear: both; }
+
+/*navbar*/
+.navbart {
+  background: #000000; }
+  .navbart .logo {
+    float: left;
+    margin: 21px 30px 21px 42px;
+    font-size: 25px; }
+    .navbart .logo a {
+      color: #ffffff; }
+  .navbart .menu li {
+    float: left;
+    margin-top: 22px;
+    margin-left: 30px;
+    padding: 0px 10px 20px 10px;
+    border: 1px solid black; }
+    .navbart .menu li a {
+      font-size: 18px;
+      color: #c8c8c8;
+      text-decoration: none; }
+  .navbart .menu .active {
+    border-bottom: 2px solid #ffffff; }
+    .navbart .menu .active a {
+      color: #ffffff; }
+  .navbart .menu .admin {
+    float: right;
+    margin-right: 42px; }
+    .navbart .menu .admin a {
+      color: #ffffff; }
+
+/*header*/
+.header {
+  padding: 30px 42px 30px 42px; }
+  .header h2 {
+    float: left;
+    font-size: 25px; }
+  .header .nav {
+    float: right; }
+    .header .nav .nav-item a {
+      color: #757575;
+      font-size: 16px; }
+      .header .nav .nav-item a i {
+        color: #000000; }
+  .header .headercard {
+    margin-left: 1px; }
+    .header .headercard .headcard {
+      margin-right: 31px;
+      padding-bottom: 25px;
+      width: 30%;
+      background: #ffffff; }
+      .header .headercard .headcard h3 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px; }
+      .header .headercard .headcard h4 {
+        font-size: 30px;
+        text-align: center; }
+      .header .headercard .headcard .revenue {
+        color: #7ed321; }
+      .header .headercard .headcard .cost {
+        color: #d0021b; }
+      .header .headercard .headcard .income {
+        color: #4a90e2; }
+
+.content .chart {
+  margin-left: 60px;
+  background: #ffffff;
+  width: 87%; }
+  .content .chart h3 {
+    margin-top: 30px;
+    margin-left: 40px; }
+
+.content #chart {
+  background: #ffffff;
+  margin-left: 20px;
+  margin-bottom: 20px; }
+
+.content .website {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  background: #ffffff; }
+  .content .website .website-card h3 {
+    padding-top: 20px;
+    font-size: 25px; }
+  .content .website .website-card li .icon {
+    font-size: 45px;
+    float: left; }
+  .content .website .website-card li h3 {
+    font-size: 15px; }
+    .content .website .website-card li h3 a {
+      padding-left: 20px;
+      color: #757575; }
+    .content .website .website-card li h3 span {
+      padding-left: 30px; }
+    .content .website .website-card li h3 .number {
+      font-size: 20px; }
+    .content .website .website-card li h3 .percent {
+      color: #7ed321; }
+      .content .website .website-card li h3 .percent i {
+        font-size: 18px;
+        padding-right: 5px; }
+      .content .website .website-card li h3 .percent .fa-arrow-down {
+        color: #d0021b; }
+    .content .website .website-card li h3 .percent-red {
+      color: #d0021b; }
+      .content .website .website-card li h3 .percent-red i {
+        font-size: 18px;
+        padding-right: 5px; }
+      .content .website .website-card li h3 .percent-red .fa-arrow-down {
+        color: #d0021b; }
+
+.content .order {
+  margin-top: 20px;
+  margin-left: 36px;
+  margin-bottom: 30px;
+  background: #ffffff; }
+  .content .order .order-card h3 {
+    padding-top: 20px;
+    font-size: 25px; }
+  .content .order .order-card ul li .order-info h4 {
+    font-size: 20px; }
+  .content .order .order-card ul li .order-info h5 {
+    font-size: 15px;
+    color: #757575; }
+  .content .order .order-card ul li .order-num h5 {
+    font-size: 15px;
+    float: right; }
+  .content .order .order-card ul li .order-num h4 {
+    font-size: 20px;
+    float: right; }

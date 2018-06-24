@@ -1,0 +1,18 @@
+/* whole body control*/
+@import "var";
+@import "grid";
+
+body {
+  font-family: 'Roboto', Arial, Microsoft JhengHei, sans-serif;
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: $lightgray;
+}
+
+.clearfix {
+  clear: both;
+}
+

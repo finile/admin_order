@@ -1,0 +1,105 @@
+@import "var";
+@import "grid";
+
+.content{
+  .chart{
+    margin-left: 60px;
+    background: $white;
+    width: 87%;
+    h3{
+      margin-top: 30px;
+      margin-left: 40px;
+    }
+  }
+  #chart{
+    background: $white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .website{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background: $white;
+    .website-card{
+      h3{
+        padding-top: 20px;
+        font-size: 25px;
+      }
+      li{
+        .icon{
+          font-size: 45px;
+          float:left; 
+        }
+        h3{
+          font-size: 15px;
+          a{
+            padding-left: 20px;
+            color:$darkgray;
+          }
+          span{
+            padding-left: 30px;
+          }
+          .number{
+            font-size: 20px;
+          }
+          .percent{
+            color:$green;
+            i{
+              font-size: 18px;
+              padding-right: 5px;
+            }
+            .fa-arrow-down{
+              color:$red;
+            }
+          }
+          .percent-red{
+            color:$red;
+             i{
+              font-size: 18px;
+              padding-right: 5px;
+            }
+            .fa-arrow-down{
+              color:$red;
+            }
+          }
+        }
+      }
+    }
+  }
+  .order{
+    margin-top: 20px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+    background: $white;
+    .order-card{
+      h3{
+        padding-top: 20px;
+        font-size: 25px;
+      }
+      ul{
+        li{
+          .order-info{
+            h4{
+              font-size: 20px;
+            }
+            h5{
+              font-size: 15px;
+              color: $darkgray;
+            }
+          }
+          .order-num{
+            h5{
+              font-size: 15px;
+              float: right;
+            }
+            h4{
+              font-size: 20px;
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
